@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Movie - Movie Title</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        aside {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <header>
+        <h1>Movie Title</h1>
+    </header>
+    <nav>
+        <a href="#nav-actor">Actors</a>
+        <a href="#nav-quote">Quotes</a>
+    </nav>
+    <section>
+        <h2>Summary</h2>
+        <p>Brief summary of the plot of your favorite movie goes here.</p>
+    </section>
+    <section id="actor">
+        <h2>Actors</h2>
+        <p>Details about the actors in the movie go here.</p>
+    </section>
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <p>Your favorite quote from the movie goes here.</p>
+    </section>
+    <aside>
+        <p>IMDb Rating: 9.0</p>
+        <p>Release Date: January 1, 20XX</p>
+    </aside>
+    <footer>
+        <p>Produced by: Producer's Name</p>
+    </footer>
 </body>
-
 </html>
